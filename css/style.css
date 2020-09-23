@@ -1,0 +1,108 @@
+*{
+	box-sizing: border-box; 
+	/* This makes the widths of elements more consistent
+		Full details here https://css-tricks.com/box-sizing/ */
+}
+
+body{
+	margin: 0px; /* Often browsers have a 5px margin by deafult*/
+	font-family: "Lucida Console", Courier, monospace;
+	font-size: 20px;
+  background-color: black;
+  color: white;
+}
+
+.button {
+  background-color: #4CAF50;
+  background-size: 100% 100%;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button4 {border-radius: 12px;}
+
+section{
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+li {
+      display: inline-block;
+      background-color: none;
+      border-radius: 3px;
+      padding: 2px;
+      margin-left: 30px;
+  }
+
+li:first-child {
+	 background-color: none;
+      margin-left: 110px;
+    }
+
+a {
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+
+header{
+	background-color:#F0F8FF;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 20px;
+}
+
+nav{
+	background-color: #FFB6C1;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 20px;
+	color:white;
+}
+
+
+
+/* Simple grid */
+.g-row{
+	width: 100%;
+	overflow: hidden;
+}
+
+.g-row img{
+	width: 100%; /*This makes all images in grids to be the size of their cell */
+}
+
+.g-50{
+	width: 50%;
+	float: left;
+}
+
+.g-30{
+	width: 30%;
+	float: left;
+}
+
+.g-70{
+	width: 70%;
+	float: left;
+}
+
+.show{
+	border: 1px solid blue;
+	padding: 2px;
+}
+
+.padded{
+	padding: 20px; /* I add this to cells to add a little padding*/
+}
